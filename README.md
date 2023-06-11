@@ -10,7 +10,7 @@
 - [x] Lesson6
 - [x] Lesson7
 - [x] Lesson8
--   Lesson9
+- [x] Lesson9
 - [x] Lesson10
 - [x] Lesson11
 - [x] Lesson12
