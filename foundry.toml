@@ -2,5 +2,7 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-
+rpc_endpoints = { mainnet = "https://rpc.ankr.com/eth" , bsc = "https://rpc.ankr.com/bsc"  , goreli = "https://rpc.ankr.com/eth_goerli" , arb = "https://rpc.ankr.com/arbitrum" , challenge = "http://8.218.239.44:8545" , sepolia = "https://rpc.ankr.com/eth_sepolia" , moonriver = "https://rpc.moonriver.moonbeam.network" , polygon = "https://rpc.ankr.com/polygon"  }
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
+[fuzz]
+runs = 40000
